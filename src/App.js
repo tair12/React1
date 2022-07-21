@@ -1,21 +1,27 @@
-function AboutUs ( props){
+import AboutPage from "./Pages/AboutPage";
+
+function App(title){
+
+
    return(
-          <div>
-            <h1>
-               AboutUs
-            </h1>
-          </div>
-   )
-}
+     <div className = "container">
+       <AboutPage
+       info="I am title"
+       body="lorem ipsum changes way"
+       />
 
 
-
-
-function App(){
-   return(
-     <div className = "container"> 
-     <AboutUs title=" Git"/>
      </div>
    );
 }
+
 export default App;
+
+
+
+
+
+
+
+
+
