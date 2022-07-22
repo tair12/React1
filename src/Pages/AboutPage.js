@@ -11,4 +11,4 @@ function AboutPage(info) {
     );
 }
 
-export default AboutPage;
+export default AboutPage;git
